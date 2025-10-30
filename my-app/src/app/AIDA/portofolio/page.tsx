@@ -18,7 +18,13 @@ export default function Home() {
             <div className="overlay">Photography</div>
           </div>
           <div className="hero-box-vidio">
-            <Image src="/gambar2.jpg" alt="Videography" fill className="img" />
+           <iframe
+              src="https://www.youtube.com/embed/stfcQNHEKJc?autoplay=1&mute=1&loop=1&playlist=stfcQNHEKJc&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
+              title="Videography"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              className="youtube-iframe"
+            />
             <div className="overlay">Videography</div>
           </div>
         </div>

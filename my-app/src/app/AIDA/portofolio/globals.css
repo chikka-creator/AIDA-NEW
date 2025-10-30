@@ -257,12 +257,13 @@ left: 0px;
 .client{
   position: relative;
   text-align: center;
-  top: 350px;
+  top: 300px;
   justify-content: center;
   right: 400px;
   z-index: 999;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
+/* HERO BOX VIDEO - Updated untuk YouTube iframe */
 .hero-box-vidio {
   position: relative;
   top: 70px;
@@ -272,10 +273,45 @@ left: 0px;
   border-radius: 10px;
 }
 
+/* YouTube iframe styling - fit cover like object-fit */
+.youtube-iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  border: none;
+  pointer-events: none; /* prevent clicking on video */
+  z-index: 0;
+  object-fit: cover;
+}
+
+/* Untuk memastikan video selalu memenuhi container seperti object-fit: cover */
+@media (aspect-ratio > 440/280) {
+  .youtube-iframe {
+    height: 40vw; /* 16:9 aspect ratio */
+    width: 100vw;
+  }
+}
+
+@media (aspect-ratio <= 440/280) {
+  .youtube-iframe {
+    height: 100%;
+    width: 140vh; /* 16:9 aspect ratio */
+  }
+}
+
+.vidio {
+  z-index: 9;
+}
+
 .hero-box.wide {
   width: 760px;
   height: 280px;
-  left: 77px;
+  left: 140px;
 }
 
 .hero-box .img {
