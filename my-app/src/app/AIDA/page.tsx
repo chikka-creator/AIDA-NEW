@@ -10,7 +10,6 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <Admin/>
       <img src="/aida-star" alt="" className="star-bg" />
       <img src="/aida-star.png" alt="left decoration" className="star-left" />
       <img src="/aida-star.png" alt="background decoration" className="star-bg-right" />
