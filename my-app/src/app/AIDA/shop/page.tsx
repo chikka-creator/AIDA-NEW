@@ -6,6 +6,7 @@ import CartModal from './CartModal';
 import Navbar from "./Navbar";
 import Login from "../components/LoginButton";
 import './shop.css';
+import '../globals.css';
 
 export type Product = {
   id: string;
