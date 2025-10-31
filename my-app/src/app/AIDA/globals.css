@@ -23,8 +23,8 @@ body {
   align-items: center;
   padding: 18px 40px;
   background: transparent;
-  z-index: 100;
-  filter: drop-shadow(-10px 20px 10px rgba(0, 0, 0, 0.5));
+  z-index: 999;
+  filter: drop-shadow(-10px 20px 6px rgba(0, 0, 0, 0.509));
 
 }
 
@@ -47,7 +47,7 @@ body {
 .nav-container {
   display: flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.454);
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 25px;
   padding: 1px 1px;
@@ -122,7 +122,7 @@ left: 0px;
 
 .nav-item.active a {
   background: #ffffff;
-  color: #0e4b7a;
+  color: #74b5fb;
   box-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
 }
 
@@ -135,7 +135,7 @@ left: 0px;
   border: none;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-  color: #184a80;
+    color: #74b5fb;
   font-size: 14px;
   padding: 5px 10px;
   transition: all 0.25s ease;
