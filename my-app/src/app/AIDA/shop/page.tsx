@@ -24,7 +24,7 @@ const PRODUCTS: Product[] = [
     subtitle: 'BROMO PRESET',
     description: 'Preset dengan tone hangat...',
     price: 125000,
-    image: '/gambar1.jpg',
+    image: '/gambar1.webp',
   },
   {
     id: 'bali',
@@ -32,7 +32,7 @@ const PRODUCTS: Product[] = [
     subtitle: 'BALI PRESET',
     description: 'Tone hangat dengan nuansa...',
     price: 115000,
-    image: '/gambar2.jpg',
+    image: '/gambar2.webp',
   },
   {
     id: 'lombok',
@@ -40,7 +40,7 @@ const PRODUCTS: Product[] = [
     subtitle: 'LOMBOK PRESET',
     description: 'Preset alami dengan warna...',
     price: 99000,
-    image: '/gambar3.jpg',
+    image: '/gambar3.webp',
   },
   {
     id: 'rinjani',
@@ -48,7 +48,7 @@ const PRODUCTS: Product[] = [
     subtitle: 'RINJANI PRESET',
     description: 'Cocok untuk foto hiking d...',
     price: 110000,
-    image: '/gambar4.jpg',
+    image: '/gambar4.webp',
   },
   {
     id: 'Gunung',
@@ -56,7 +56,7 @@ const PRODUCTS: Product[] = [
     subtitle: 'GUNUNG PRESET',
     description: 'Cocok untuk foto hiking d...',
     price: 110000,
-    image: '/gambar5.jpg',
+    image: '/gambar5.webp',
   },
 ];
 

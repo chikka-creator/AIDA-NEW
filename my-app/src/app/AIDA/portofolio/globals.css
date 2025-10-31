@@ -256,7 +256,8 @@ left: 0px;
 .client{
   position: relative;
   text-align: center;
-  top: 300px;
+  top: 400px;
+  color: white;
   justify-content: center;
   right: 400px;
   z-index: 100;
@@ -310,7 +311,7 @@ left: 0px;
 .hero-box.wide {
   width: 760px;
   height: 280px;
-  left: 140px;
+  left: 0;
 }
 
 .hero-box .img {
@@ -334,7 +335,7 @@ left: 0px;
 .villa {
   position: relative;
   text-align: center;
-background-image: url("/bg-section.jpg");
+background-image: url("/bg-section.webp");
 background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -623,7 +624,7 @@ background-size: cover;
   width: 100%;
   padding: 5rem 2rem;
   display: flex;
-  background-image: url("/bg-section.jpg");
+  background-image: url("/bg-section.webp");
 background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

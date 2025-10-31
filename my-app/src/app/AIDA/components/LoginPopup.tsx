@@ -49,11 +49,11 @@ export default function LoginPopup({ onClose }: LoginPopupProps) {
     <div className={`popupOverlay ${closing ? 'closing' : ''}`}>
       <div className="popupCard">
         <div className="popupLeft">
-          <img src="/aida-star.png" alt="Logo" className="popupLogoLarge" />
+          <img src="/aida-star.webp" alt="Logo" className="popupLogoLarge" />
         </div>
 
         <div className="popupRight">
-          <img src="/aida-star.png" alt="Logo" className="popupLogoSmall" onClick={handleClose} />
+          <img src="/aida-star.webp" alt="Logo" className="popupLogoSmall" onClick={handleClose} />
 
           <h2 className="popupTitle">Login</h2>
 
@@ -94,7 +94,7 @@ export default function LoginPopup({ onClose }: LoginPopupProps) {
               className="popupBtnApple"
               onClick={() => signIn('apple')}
             >
-              <img src="/apple.png" alt="Apple"
+              <img src="/apple.webp" alt="Apple"
               width={'18px'}
               
               />
